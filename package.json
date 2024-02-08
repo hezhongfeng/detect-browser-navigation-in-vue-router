@@ -6,13 +6,15 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "release": "release-it"
   },
   "peerDependencies": {
     "vue": "^3.3.4",
     "vue-router": "^4.2.2"
   },
   "devDependencies": {
+    "release-it": "^17.0.3",
     "typescript": "^5.3.3",
     "vite": "^5.0.12"
   }
