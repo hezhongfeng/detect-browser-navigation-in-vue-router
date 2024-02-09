@@ -1,13 +1,20 @@
 import { Router } from 'vue-router';
 
 interface DetectBrowserNavigationInVueRouterOption {
-  router: Router;
-  backCallback: Function;
-  forwardCallback: Function;
+  router: Router | null;
+  backCallback: Function | null;
+  forwardCallback: Function | null;
 }
 
 const DetectBrowserNavigationInVueRouter = {
-  install(_app: any, { router, backCallback, forwardCallback }: DetectBrowserNavigationInVueRouterOption) {
+  install(
+    _app: any,
+    { router, backCallback, forwardCallback }: DetectBrowserNavigationInVueRouterOption = {
+      router: null,
+      backCallback: null,
+      forwardCallback: null
+    }
+  ) {
     if (!router) {
       throw Error('router is required');
     }
