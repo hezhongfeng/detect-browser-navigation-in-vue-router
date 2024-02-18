@@ -1,6 +1,6 @@
 {
   "name": "detect-browser-navigation-in-vue-router",
-  "version": "1.0.0",
+  "version": "1.0.1-beta.0",
   "type": "module",
   "author": "hezf",
   "files": [

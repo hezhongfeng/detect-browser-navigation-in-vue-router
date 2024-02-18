@@ -1,5 +1,9 @@
 
 
+## <small>1.0.1-beta.0 (2024-02-18)</small>
+
+* 🐳 chore(core): 升级主版本 ([454338f](https://github.com/hezhongfeng/detect-browser-navigation-in-vue-router/commit/454338f))
+
 ## <small>0.0.2-beta.4 (2024-02-18)</small>
 
 * ✨ feat(core): 添加 dist ([d29b624](https://github.com/hezhongfeng/detect-browser-navigation-in-vue-router/commit/d29b624))
