@@ -1,5 +1,9 @@
 
 
+## <small>0.0.2-beta.4 (2024-02-18)</small>
+
+* ✨ feat(core): 添加 dist ([d29b624](https://github.com/hezhongfeng/detect-browser-navigation-in-vue-router/commit/d29b624))
+
 ## <small>0.0.2-beta.3 (2024-02-18)</small>
 
 * 📃 docs(core): 推送到 npm ([fec492c](https://github.com/hezhongfeng/detect-browser-navigation-in-vue-router/commit/fec492c))
