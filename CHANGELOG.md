@@ -1,5 +1,9 @@
 
 
+## <small>0.0.2-beta.3 (2024-02-18)</small>
+
+* 📃 docs(core): 推送到 npm ([fec492c](https://github.com/hezhongfeng/detect-browser-navigation-in-vue-router/commit/fec492c))
+
 ## <small>0.0.2-beta.2 (2024-02-18)</small>
 
 * 🎈 perf(core): 更新配置 ([d032205](https://github.com/hezhongfeng/detect-browser-navigation-in-vue-router/commit/d032205))
