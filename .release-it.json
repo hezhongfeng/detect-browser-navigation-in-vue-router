@@ -13,9 +13,6 @@
   },
   "plugins": {
     "@release-it/conventional-changelog": {
-      "preset": {
-        "name": "conventionalcommits"
-      },
       "infile": "CHANGELOG.md"
     }
   }
