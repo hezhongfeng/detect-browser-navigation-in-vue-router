@@ -24,6 +24,7 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "release": "release-it",
+    "release-major": "release-it major",
     "pre-release": "release-it --preRelease=beta"
   },
   "license": "MIT",
