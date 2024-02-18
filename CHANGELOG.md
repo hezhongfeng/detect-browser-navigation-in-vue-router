@@ -1,5 +1,10 @@
 
 
+## <small>0.0.2-beta.2 (2024-02-18)</small>
+
+* 🎈 perf(core): 更新配置 ([d032205](https://github.com/hezhongfeng/detect-browser-navigation-in-vue-router/commit/d032205))
+* 📃 docs(core): 更改配置 ([dfca73b](https://github.com/hezhongfeng/detect-browser-navigation-in-vue-router/commit/dfca73b))
+
 ## [0.0.2-beta.1](https://github.com/hezhongfeng/detect-browser-navigation-in-vue-router/compare/0.0.2-beta.0...0.0.2-beta.1) (2024-02-18)
 
 ## [0.0.2-beta.0](https://github.com/hezhongfeng/detect-browser-navigation-in-vue-router/compare/0.0.1...0.0.2-beta.0) (2024-02-18)
