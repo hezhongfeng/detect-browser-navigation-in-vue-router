@@ -1,8 +1,24 @@
 {
   "name": "detect-browser-navigation-in-vue-router",
-  "private": true,
   "version": "0.0.2-beta.3",
   "type": "module",
+  "author": "hezf",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/detect-browser-navigation-in-vue-router.umd.js",
+  "module": "./dist/detect-browser-navigation-in-vue-router.es.js",
+  "private": false,
+  "exports": {
+    ".": {
+      "import": "./dist/detect-browser-navigation-in-vue-router.es.js",
+      "require": "./dist/detect-browser-navigation-in-vue-router.umd.js"
+    }
+  },
+  "keywords": [
+    "vue-router",
+    "navigation"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -10,9 +26,15 @@
     "release": "release-it",
     "pre-release": "release-it --preRelease=beta"
   },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hezhongfeng/detect-browser-navigation-in-vue-router.git"
+  },
+  "homepage": "https://github.com/hezhongfeng/detect-browser-navigation-in-vue-router",
   "peerDependencies": {
-    "vue": "^3.3.4",
-    "vue-router": "^4.2.2"
+    "vue": ">=3.3.0",
+    "vue-router": ">=4.2.0"
   },
   "devDependencies": {
     "@release-it/conventional-changelog": "^8.0.1",

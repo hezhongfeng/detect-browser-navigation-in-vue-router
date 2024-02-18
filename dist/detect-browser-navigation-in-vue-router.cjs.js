@@ -1,0 +1,1 @@
+"use strict";const n={install(l,{router:o,backCallback:r,forwardCallback:t}={router:null,backCallback:null,forwardCallback:null}){if(!o)throw Error("router is required");let i=null;o.options.history.listen((s,a,e)=>{i=e}),o.beforeEach(()=>{i&&(i.direction==="back"&&r?r():i.direction==="forward"&&t&&t(),i=null)})}};module.exports=n;
