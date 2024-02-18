@@ -1,5 +1,11 @@
 
 
+## 1.0.0 (2024-02-18)
+
+* ✨ feat(core): 添加执行脚本 ([301930b](https://github.com/hezhongfeng/detect-browser-navigation-in-vue-router/commit/301930b))
+* 🐎 ci(升级版本): ([53a41ea](https://github.com/hezhongfeng/detect-browser-navigation-in-vue-router/commit/53a41ea))
+* 🔧 build(版本变更): ([75dd8b1](https://github.com/hezhongfeng/detect-browser-navigation-in-vue-router/commit/75dd8b1))
+
 ## <small>1.0.1-beta.0 (2024-02-18)</small>
 
 * 🐳 chore(core): 升级主版本 ([454338f](https://github.com/hezhongfeng/detect-browser-navigation-in-vue-router/commit/454338f))
