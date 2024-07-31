@@ -1,16 +1,16 @@
 const f = {
-  install(l, { router: o, backCallback: e, forwardCallback: r } = {
+  install(r, { router: t, backCallback: i, forwardCallback: l } = {
     router: null,
     backCallback: null,
     forwardCallback: null
   }) {
-    if (!o)
+    if (!t)
       throw Error("router is required");
-    let i = null;
-    o.options.history.listen((n, a, t) => {
-      i = t;
-    }), o.beforeEach(() => {
-      i && (i.direction === "back" && e ? e() : i.direction === "forward" && r && r(), i = null);
+    let e = null;
+    t.options.history.listen((n, a, o) => {
+      e = o;
+    }), t.beforeEach(() => {
+      e && (e.direction === "back" && i ? i(e.delta) : e.direction === "forward" && l && l(e.delta), e = null);
     });
   }
 };

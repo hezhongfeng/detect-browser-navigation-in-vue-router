@@ -18,7 +18,7 @@ const DetectBrowserNavigationInVueRouter = {
     if (!router) {
       throw Error('router is required');
     }
-    let navigationInfo: { direction: string } | null = null;
+    let navigationInfo: { direction: string; delta: number } | null = null;
     router.options.history.listen((_to, _from, info) => {
       navigationInfo = info;
     });
@@ -26,9 +26,9 @@ const DetectBrowserNavigationInVueRouter = {
     router.beforeEach(() => {
       if (navigationInfo) {
         if (navigationInfo.direction === 'back' && backCallback) {
-          backCallback();
+          backCallback(navigationInfo.delta);
         } else if (navigationInfo.direction === 'forward' && forwardCallback) {
-          forwardCallback();
+          forwardCallback(navigationInfo.delta);
         }
         // need to reset it to null
         navigationInfo = null;
